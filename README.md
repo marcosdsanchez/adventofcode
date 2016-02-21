@@ -1,1 +1,1 @@
-# Solutions to http://adventofcode.com/
+Solutions to http://adventofcode.com/
