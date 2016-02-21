@@ -8,7 +8,7 @@ end
 input = File.read("#{__DIR__}/input")
 previousPoint = Point.new(0, 0)
 points = [previousPoint]
-input.each_char_with_index do |position, index|
+input.each_char do |position|
   case position
   when '^'
     points << Point.new(previousPoint.x, previousPoint.y + 1)
@@ -22,4 +22,4 @@ input.each_char_with_index do |position, index|
   previousPoint = points.last
 end
 
-puts points.uniq.size
+puts points.to_set.size
