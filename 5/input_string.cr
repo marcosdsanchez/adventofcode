@@ -1,12 +1,11 @@
 class InputString
-
   def initialize(@str)
   end
 
   def is_nice?
     has_min_vowels? &&
-    has_at_least_one_char_that_repeats? &&
-    !has_blacklisted_sequence?
+      has_at_least_one_char_that_repeats? &&
+      !has_blacklisted_sequence?
   end
 
   def has_min_vowels?

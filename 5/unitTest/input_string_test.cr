@@ -1,5 +1,5 @@
 require "spec"
-require "./../5/InputString"
+require "./../5/input_string"
 
 describe "InputString" do
   describe "#is_nice?" do
