@@ -18,11 +18,5 @@ lines.each do |line|
     end
   end
 end
-brightness = 0
-(0...1000).each do |x|
-  (0...1000).each do |y|
-    brightness += grid[x][y]
-  end
-end
 
-puts brightness
+puts grid.sum &.sum
