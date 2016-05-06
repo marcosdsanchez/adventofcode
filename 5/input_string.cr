@@ -1,5 +1,5 @@
 class InputString
-  def initialize(@str)
+  def initialize(@str : String)
   end
 
   def is_nice?
