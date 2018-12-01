@@ -1,5 +1,5 @@
 require "spec"
-require "./../5/input_string"
+require "#{__DIR__}/../input_string.cr"
 
 describe "InputString" do
   describe "#is_nice?" do

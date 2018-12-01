@@ -13,4 +13,4 @@ end
 points_santa = HouseResolver.resolve(santa_input)
 points_santa_bot = HouseResolver.resolve(santa_bot_input)
 
-puts points_santa.merge(points_santa_bot).size
+puts (points_santa | points_santa_bot).size
